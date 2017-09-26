@@ -13,11 +13,11 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/main_fragment_container"
+            android:id="@+id/tv_show"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/rl_title"
+            android:layout_marginBottom="65dp"
             android:gravity="center"
             android:text="我是文字"/>
 
@@ -106,28 +106,6 @@
                     android:layout_height="70dp"
                     android:background="@android:color/transparent"
                     android:src="@drawable/video_selector"/>
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@color/colorTitleBlack"
-                android:visibility="gone">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@android:color/transparent"
-                    android:src="@drawable/live_selector"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_gravity="bottom"
-                    android:gravity="center"
-                    android:text="直播"
-                    android:textColor="@color/main_bottom_tv_color"/>
             </FrameLayout>
 
             <FrameLayout
